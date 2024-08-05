@@ -5,6 +5,7 @@ body {
   background-color: #f5f5f5; /* Body background color */
   margin: 0;
   font-family: Arial, sans-serif;
+	
 }
 
 /* Header styles */
@@ -12,7 +13,9 @@ body {
   background-color: #011e29; /* Header background color */
   color: white;               /* Header text color */
   text-align: center;         /* Center align text */
-  padding: 20px;              /* Add padding to header */
+  padding: 20px;   
+	/* Add padding to header */
+	
 }
 
 /* Latest News section styles */
@@ -23,6 +26,8 @@ body {
   width: 300px;              /* Set width */
   margin: 20px auto;         /* Center align the section */
   border-radius: 8px;        /* Rounded corners */
+	 display: flex;
+  justify-content: space-around;
 }
 
 .latest-news-section h2 {
@@ -46,6 +51,8 @@ body {
   margin: 20px auto;         /* Center align the section */
   background-color: #ffffff; /* Background color */
   border-radius: 8px;        /* Rounded corners */
+	 display: flex;
+  justify-content: space-around;
 }
 
 .pictorial-news-section img {
@@ -63,4 +70,6 @@ y: flex;      /* Flexbox for centering content */
   margin-right: 8px; /* Space between bullet and text */
   font-size: 20px; /* Bullet size */
   color: black; /* Bullet color */
+	 display: flex;
+  justify-content: space-around;
 }
