@@ -1,55 +1,67 @@
-/* General styles for the body */
+/* Basic reset */
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  background-color: #f5f5f5; /* Body background color */
-  margin: 0;
-  font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Apply the body background color */
+    font-family: Arial, sans-serif;
 }
 
-/* Header styles */
 .header {
-  background-color: #011e29; /* Header background color */
-  color: white;               /* Header text color */
-  text-align: center;         /* Center align text */
-  padding: 20px;              /* Add padding to header */
+    text-align: center;
+    padding: 20px;
+    background-color: #011e29; /* Apply the header background color */
+    color: #ffffff;
 }
 
-/* Latest News section styles */
 .latest-news-section {
-  background-color: #011e29; /* Section background color */
-  color: white;              /* Text color */
-  padding: 20px;             /* Add padding */
-  width: 300px;              /* Set width */
-  margin: 20px auto;         /* Center align the section */
-  border-radius: 8px;        /* Rounded corners */
+    background-color: #ffffff; /* Adjust if needed for contrast */
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px; /* Optional: for a slightly rounded look */
 }
 
 .latest-news-section h2 {
-  margin: 0 0 10px 0;        /* Margin for heading */
+    margin-bottom: 10px;
 }
 
 .latest-news-section ul {
-  list-style-type: disc;     /* Default dot bullets for list items */
-  padding-left: 20px;        /* Add padding to the left to make room for bullets */
-  margin: 0;                 /* Remove default margin */
+    list-style-type: none;
 }
 
 .latest-news-section li {
-  margin-bottom: 10px;       /* Space between list items */
+    padding: 10px 0;
 }
 
-/* Pictorial News section styles */
 .pictorial-news-section {
-  background-color: #ffffff; /* Section background color */
-  padding: 20px;             /* Add padding */
-  width: 300px;              /* Set width */
-  margin: 20px auto;         /* Center align the section */
-  text-align: center;        /* Center align text */
-  border-radius: 8px;        /* Rounded corners */
+    background-color: #ffffff; /* Adjust if needed for contrast */
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
 }
 
 .pictorial-news-section img {
-  width: 100px;              /* Fixed width for images */
-  height: auto;              /* Maintain aspect ratio */
-  margin: 10px;              /* Space between images */
-  border-radius: 8px;        /* Rounded corners for images */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0; /* Space between images */
 }
+
+.pictorial-news-section p {
+    margin-top: 10px;
+}
+.main-article-section {
+    background-color: #ffffff; /* Adjust if needed */
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: left; /* Usually, article text is left-aligned */
+    border-radius: 8px;
+}
+
