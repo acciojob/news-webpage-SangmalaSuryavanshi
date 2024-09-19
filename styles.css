@@ -1,67 +1,53 @@
-/* Basic reset */
-body, h1, h2, p, h3, ul, li, img {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+body{
+  background-color:#f5f5f5;
+  font-family: Sans-Serif;
 }
 
-body {
-    background-color: #f5f5f5; /* Apply the body background color */
-    font-family: Arial, sans-serif;
+.header{
+  background-color: #011e29;
+  color:white;
+  text-align: center;
+  padding:20px 0;
+  margin-bottom:20px;
+  
 }
 
-.header {
-    text-align: center;
-    padding: 20px;
-    background-color: #011e29; /* Apply the header background color */
-    color: #ffffff;
+.container{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  padding:0 20px;
+}
+.latest-news-section{
+  background-color: white;
+  width: 30%;
+  padding:20px;
+  border-radius:10px;
+}
+.pictorial-news-section{
+  background-color: white;
+  width:60%;
+  padding:20px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.latest-news-section {
-    background-color: #ffffff; /* Adjust if needed for contrast */
-    padding: 20px;
-    width: 80%;
-    margin: 20px auto;
-    border-radius: 8px; /* Optional: for a slightly rounded look */
+.pictorial-news-section img{
+  width:100%;
+  max-width: 100%;
+  border-radius:10px;
+  margin-bottom:10px;
 }
 
-.latest-news-section h2 {
-    margin-bottom: 10px;
+.latest-news-section li{
+  margin-bottom: 10px;
 }
 
-.latest-news-section ul {
-    list-style-type: none;
+.main-article{
+  background-color: white;
+  width:80%;
+  padding:20px;
+  border-radius: 10px;
+  text-align: center;
 }
-
-.latest-news-section li {
-    padding: 10px 0;
-}
-
-.pictorial-news-section {
-    background-color: #ffffff; /* Adjust if needed for contrast */
-    padding: 20px;
-    width: 80%;
-    margin: 20px auto;
-    text-align: center;
-    border-radius: 8px;
-}
-
-.pictorial-news-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin: 10px 0; /* Space between images */
-}
-
-.pictorial-news-section p {
-    margin-top: 10px;
-}
-.main-article-section {
-    background-color: #ffffff; /* Adjust if needed */
-    padding: 20px;
-    width: 80%;
-    margin: 20px auto;
-    text-align: left; /* Usually, article text is left-aligned */
-    border-radius: 8px;
-}
-
